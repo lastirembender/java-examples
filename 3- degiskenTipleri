@@ -1,0 +1,42 @@
+public class Main {
+
+    public static void main(String[] args)
+    {
+    
+    /*
+    Java’da veri tipleri 3 gruba ayrılır.
+    1- İlkel (Primitive) Veri Tipleri
+        Tam sayılar(byte,short,integer,long) ve ondalıklı sayılar(float,double,char,boolean)
+    2- Referans Tipleri
+        Class, interface, array
+    3- Null Tipi (Herhangi bir değere sahip olmama durumudur.)
+
+    Değişkenler şu şekilde tanımlanır:
+        veritipi değişkenadı = değişkendeğeri
+    */
+
+	int sayi = 10;
+	double sayi1 = 3.10;
+	char harf = 'a';
+	//char aslında sayısal bilgi tutan veri tipidir. a harfinin ASCII karşılığını tutar.
+  boolean dogruMu = false; //boolean dogru/yanlıs bilgisini tutan veri tipidir.
+  float sayi3 = 342.5f;
+  String isim = "Java";
+
+
+ /* 
+    Dinamik değişkenler sınıf içinde bildirimi yapılan ve static deyimi olmayan değişkenlerdir.
+           örn:    Hesapla h1 = new Hesapla();
+                   h1.karekokal = 5;
+ 
+    Statik değişkenler sınıf tanımlamada bildirimi yapılan ve static deiyimi olan değişkenlerdir
+           örn:    static double = daireninAlanı;
+
+    Final deyimi Java'da sabit yerine geçer. Program boyunca değşmeden sabit kalır.
+    Diğerlerinden ayırmak için büyük harfle yazmak gelenektir.
+    
+           örn:    static final float PI = 3.1416;
+ */
+
+    }
+}
