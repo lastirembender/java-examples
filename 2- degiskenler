@@ -1,0 +1,11 @@
+public class Main
+{
+
+    public static void main(String[] args)
+    {
+        //Java büyük ve küçük harflere duyarlı bir dildir. örn/ System yerine system yazılmaz (case sensitive)
+        int ogrenciSayisi = 10;
+	    System.out.println("Öğrenci sayım: "+ ogrenciSayisi);
+
+    }
+}
