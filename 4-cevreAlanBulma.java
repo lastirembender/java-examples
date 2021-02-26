@@ -1,4 +1,4 @@
-public class Merhaba {
+public class cevreAlanBulma {
   
 	public static void main(String[] args) {
 		double r=5.5;
